@@ -1,19 +1,74 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: blanchedalmond;
 }
+
+/* HOME PAGE STYLES */
+
+/* NAVIGATION STYLES */
   
-  .navigation {
-    display: flex;
-    margin: 20px;
-    padding: 25px;
-    font-size: 20px;
-    list-style-type: none;
-    float: center;
-    background-color: aliceblue;
+.topnav {
+    background-color: gray;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+
+.topnav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 200px;
+    padding-right: 100px;
+ }
+
+.topnav a:hover {
+    background-color:azure;
+    color: black;
+  }
+
+.topnav input[type=text] {
+    float: right;
+    width: 25%;
+    padding: 8px;
+    border: 1px solid;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 18px;
+  }
+
+header form input {
+    height: 30px;
+  }
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* MAIN CONTENT STYLES */
+
+.gameimage {
+    padding: 30px;
 }
 
-header form {
-    float: right;
+.h1 {
+    padding-left: 30px;
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+.p1 {
+    font-size: 22px;
+    padding-left: 7px;
 }
