@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+/* ABOUT PAGE STYLES */
+
+/* NAVIGATION STYLES */
+  
+.topnav {
+    background-color: burlywood;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+
+.topnav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 300px;
+ }
+
+.topnav a:hover {
+    background-color:azure;
+    color: black;
+  }
+
+.topnav input[type=text] {
+    float: right;
+    width: 25%;
+    padding: 8px;
+    border: 1px solid;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 18px;
+  }
+
+header form input {
+    height: 30px;
+  }
+
+  /* MAIN CONTENT STYLES */
+
+
+.h1 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+  
+.h2, .h3, .h4, .h5, .h6 {
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
+    font-size: 22px;
+    margin-left: 30px;
+  }
+
+
+
+
+
+
+
+  /* FOOTER STYLES */
+
+.footerabout {
+    background-color:burlywood;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+  }

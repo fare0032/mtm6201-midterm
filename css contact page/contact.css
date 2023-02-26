@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+/* CONTACT PAGE STYLES */
+
+/* NAVIGATION STYLES */
+  
+.topnav {
+    background-color: burlywood;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+
+.topnav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 300px;
+ }
+
+.topnav a:hover {
+    background-color:azure;
+    color: black;
+  }
+
+.topnav input[type=text] {
+    float: right;
+    width: 25%;
+    padding: 8px;
+    border: 1px solid;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 18px;
+  }
+
+header form input {
+    height: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* FOOTER STYLES */
+
+.footercontact {
+    background-color:burlywood;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+  }

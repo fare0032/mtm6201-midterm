@@ -7,9 +7,9 @@ body {
 /* HOME PAGE STYLES */
 
 /* NAVIGATION STYLES */
-  
+
 .topnav {
-    background-color: gray;
+    background-color: burlywood;
     overflow: hidden;
     width: 100%;
   }
@@ -19,17 +19,16 @@ body {
     float: left;
     color: black;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 30px;
     font-weight: bold;
-    padding-left: 200px;
-    padding-right: 100px;
+    margin-left: 300px;
  }
 
 .topnav a:hover {
     background-color:azure;
     color: black;
-  }
+ }
 
 .topnav input[type=text] {
     float: right;
@@ -45,30 +44,65 @@ header form input {
     height: 30px;
   }
 
-.topnav .search-container button {
-    float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
 
   /* MAIN CONTENT STYLES */
 
 .gameimage {
-    padding: 30px;
+    padding: 10px;
+    margin-right: 20%;
+    margin-left: 28%;
+    margin-top: 2%;
 }
 
-.h1 {
-    padding-left: 30px;
+.h1, .h2 {
+    margin-left: 20px;
     font-size: 20px;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
-.p1 {
+.p1, .p2 {
     font-size: 22px;
-    padding-left: 7px;
+    margin-left: 20px;
+}
+
+.treesplants {
+    margin-left: 30%;
+}
+
+.actionfigureimage {
+    margin-left: 15%;
+}
+
+.gameoverimage {
+    margin-top: -600px;
+    margin-left: 52%;
+    margin-bottom: 10px;
+}
+
+.button {
+  border: 2px solid black;
+  padding: 30px 32px;
+  margin-left: 85%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* FOOTER STYLES */
+
+.footerhome {
+    background-color:burlywood;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
