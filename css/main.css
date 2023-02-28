@@ -23,6 +23,8 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 30px;
  }
 
 .topnav a:hover {
@@ -33,17 +35,12 @@ body {
 .topnav input[type=text] {
     float: right;
     width: 25%;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-right: 16px;
     font-size: 18px;
   }
-
-header form input {
-    height: 30px;
-  }
-
 
   /* MAIN CONTENT STYLES */
 
@@ -58,25 +55,29 @@ header form input {
     margin-left: 20px;
     font-size: 20px;
     text-decoration: underline;
+    color: darkgoldenrod;
 }
 
 .p1, .p2 {
     font-size: 22px;
     margin-left: 20px;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .treesplants {
     margin-left: 30%;
+    margin-top: 30px;
 }
 
 .actionfigureimage {
     margin-left: 15%;
+    margin: 10%;
 }
 
 .gameoverimage {
-    margin-top: -600px;
+    margin-top: -300%;
     margin-left: 52%;
-    margin-bottom: 10px;
 }
 
 .button {
@@ -87,7 +88,7 @@ header form input {
   margin-top: 2%;
   text-decoration: underline;
   display: inline-block;
-  font-size: 20px;
+  font-size: 21px;
   cursor: pointer;
 }
 
@@ -104,5 +105,5 @@ header form input {
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 18px;
 }
