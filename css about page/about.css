@@ -45,8 +45,8 @@ header form input {
     height: 30px;
   }
 
-  /* MAIN CONTENT STYLES */
 
+  /* MAIN CONTENT STYLES */
 
 .h1 {
     margin-left: 20px;
@@ -76,6 +76,8 @@ header form input {
     margin-top: 20px;
 }
 
+/* MAIN IMAGES WITH PARAGRAPHS */
+
 .funding {
     margin-top: 70px;
     margin-left: 20%;
@@ -98,6 +100,7 @@ header form input {
     height: auto;
 }
 
+/* ANIMATION BEFORE FOOTER */
 
 .indiesito {
     float: right;
@@ -123,6 +126,8 @@ header form input {
     opacity: 0.1;
     transition: 0.3s;
 }
+
+/* BUTTON FOR MORE INFORMATION */
 
 .button {
     border: 2px solid black;
