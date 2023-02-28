@@ -47,12 +47,13 @@ header form input {
   /* MAIN CONTENT */
 
 .h1 {
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 5%;
 }
 
 input[type=text], select {
     width: 100%;
+    height: auto;
     background-color: white;
     padding: 12px 20px;
     margin: 8px 0;
@@ -60,11 +61,13 @@ input[type=text], select {
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 18px;
   }
   
   input[type=submit] {
     width: 100%;
     background-color: white;
+    font-size: 18px;
     color: black;
     padding: 14px 20px;
     margin: 8px 0;
@@ -81,19 +84,25 @@ input[type=text], select {
   .form {
     border-radius: 5px;
     border: 1px solid black;
-    background-color: white;
+    background-color: lightcyan;
     padding: 20px;
     width: 50%;
+    height: auto;
     margin: 20%;
     margin-left: 25%;
     margin-top: 5%;
+    font-size: 18px;
   }
 
   /* CONTACT PAGE FORM */
 
   .mapforcontact {
-    margin: 30%;
-    margin-top: -10%;
+    margin-left: 26%;
+    margin-right: 5%;
+    margin-top: -15%;
+    margin-bottom: 10%;
+    width: 50%;
+    height: auto;
   }
 
 

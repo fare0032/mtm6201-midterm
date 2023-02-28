@@ -42,13 +42,19 @@ body {
     font-size: 18px;
   }
 
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
   /* MAIN CONTENT STYLES */
 
 .gameimage {
     padding: 10px;
-    margin-right: 20%;
-    margin-left: 28%;
     margin-top: 2%;
+    margin-left: 4%;
+    width: 90%;
+    height: auto;
 }
 
 .h1, .h2 {
@@ -59,37 +65,42 @@ body {
 }
 
 .p1, .p2 {
-    font-size: 22px;
-    margin-left: 20px;
-    border: 1px solid black;
-    background-color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 2px;
+  border: 1px solid black;
+  background-color: white;
 }
 
 .treesplants {
-    margin-left: 30%;
-    margin-top: 30px;
+  padding: 10px;
+  margin-top: 2%;
+  margin-left: 4%;
+  width: 90%;
+  height: auto;
 }
 
 .actionfigureimage {
-    margin-left: 15%;
-    margin: 10%;
-}
-
-.gameoverimage {
-    margin-top: -300%;
-    margin-left: 52%;
+  padding: 10px;
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 50%;
+  height: auto;
 }
 
 .button {
   border: 2px solid black;
   padding: 30px 32px;
-  margin-left: 85%;
-  margin-bottom: 2%;
-  margin-top: 2%;
-  text-decoration: underline;
-  display: inline-block;
-  font-size: 21px;
+  margin-left: 73%;
+  margin-top: -25%;
+  text-decoration: none;
+  position:absolute;
+  font-size: 18px;
   cursor: pointer;
+  width: 10%;
+  height: auto;
+  float: right;
 }
 
 .button:hover {
@@ -103,7 +114,7 @@ body {
 .footerhome {
     background-color:burlywood;
     font-size: 20px;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 18px;
 }
